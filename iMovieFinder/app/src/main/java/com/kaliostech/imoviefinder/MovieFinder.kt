@@ -8,11 +8,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.textfield.TextInputEditText
 
 class MovieFinder : AppCompatActivity() {
     private lateinit var button: Button
-    private lateinit var moviename: EditText
-    private lateinit var release_year: EditText
+    private lateinit var moviename: TextInputEditText
+    private lateinit var release_year: TextInputEditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
